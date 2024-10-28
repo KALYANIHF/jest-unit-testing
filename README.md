@@ -25,14 +25,21 @@ concept (test driven development)
 
 **installation:**
 
-> npm install jest --save-dev/-D
+```bash
+npm install jest --save-dev/-D
+```
 
-> npm install jest-cli --save-dev/-D
+```bash
+npm install jest-cli --save-dev/-D
+```
 
 **running the test:**
 
-> npm test
-> edit the package.json file and add the following code in the scripts section
+```bash
+ npm test
+```
+
+#### edit the package.json file and add the following code in the scripts section
 
 - `'test': 'jest'`
 
